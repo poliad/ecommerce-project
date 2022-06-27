@@ -1,0 +1,34 @@
+@import "../styles/partials/classes";
+@import "../styles/partials/grid";
+
+
+
+body{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.row{
+    color: white;
+    .col-12{
+        background: red;
+        padding: 25px 0;
+    }
+    .col-6{
+        background: pink;
+        padding: 25px 0;
+    }
+    .col-md-4{
+        background: blue;
+        padding: 25px 0;
+    }
+    .col-3{
+        background: green;
+        padding: 25px 0;
+    }
+    .col-2{
+        background: purple;
+        padding: 25px 0;
+    }
+}
